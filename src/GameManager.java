@@ -65,7 +65,7 @@ public class GameManager {
         Cell cell = board.getCell(position);
         Jump jumpInfo = cell.getJump();
         if (jumpInfo != null && jumpInfo.getStart() == position) {
-            String jumpBy = (jumpInfo.getStart() > jumpInfo.getEnd()) ? "Ladder" : "Snake";
+            String jumpBy = (jumpInfo.getStart() > jumpInfo.getEnd()) ? "Snake" : "Ladder";
             System.out.println("Player got jump by " + jumpBy);
             return jumpInfo.getEnd();//player new position
         }
