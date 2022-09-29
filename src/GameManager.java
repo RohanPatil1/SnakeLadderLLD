@@ -5,10 +5,10 @@ import java.util.LinkedList;
 
 public class GameManager {
 
-    Board board;
-    Dice dice;
-    Deque<Player> playersDeque =new LinkedList<>();
-    Player winner;
+    private Board board;
+    private Dice dice;
+    private final Deque<Player> playersDeque = new LinkedList<>();
+    private Player winner;
 
 
     public GameManager() {
