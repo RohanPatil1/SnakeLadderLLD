@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f94d516d-86ba-4aae-aad2-e8e757654830" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/src/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
