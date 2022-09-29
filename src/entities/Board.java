@@ -3,7 +3,7 @@ package entities;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Board {
-    Cell[][] cells;
+    public Cell[][] cells;
 
     //Constructor
     public Board(int boardSize, int snakeCount, int ladderCount) {
